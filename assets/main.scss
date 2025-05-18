@@ -2,6 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+ol.bibliography { list-style-type: none; padding: 0px; margin: 0px; }
+
 $baseurl: "{{ site.url }}{{ site.baseurl }}";
 
 // @import "variables";
@@ -11,3 +13,15 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 // @import "bootstrap_customization";
 @import "bootstrap";
 @import "SHB_css";
+
+.flex-container {
+    display: flex;
+}
+.flex-child-left {
+    flex: 0.175;
+}  
+.flex-child-right {
+    flex: 0.825;
+}  
+.flex-child:first-child {
+} 

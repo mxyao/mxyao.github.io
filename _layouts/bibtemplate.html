@@ -23,10 +23,26 @@ pre{
 </style>
 
 
-<div class="text-justify">{{reference}}</div>
+<!-- <div class="text-justify">{{reference}}</div> -->
 
 <!-- You can use the below to make your name bold -->
 <!-- {{reference | replace_first: 'Bryngelson, S. H.', '<b>Bryngelson, S. H.</b>' | replace_first: 'Bryngelson, S.', '<b>Bryngelson, S.</b>' }}</div> -->
+
+<!-- {% if entry.image %}
+    <img src="{{ entry.image }}" width="100" height="100" />
+{% endif %}
+
+<div class="text-justify">{{reference | replace_first: 'Yao, M. X.', '<b>Yao, M. X.</b>' | replace_first: 'Yao, M.', '<b>Yao, M.</b>' }}</div> -->
+
+<div class="flex-container">
+  <div class="flex-child-left">
+    {% if entry.image %}
+        <img src="{{ entry.image }}" width="100" />
+    {% endif %}
+  </div>
+  
+  <div class="flex-child-right">
+    <div class="text-justify">{{reference | replace_first: 'Yao, M. X.', '<b>Yao, M. X.</b>' | replace_first: 'Yao, M.', '<b>Yao, M.</b>' }}</div>
 
 {% assign bibtest = false %}
 {% if entry.file %}
@@ -51,7 +67,7 @@ pre{
 {% endif %}
 
 {% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'report' %}
-<button class="btn btn-danger btm-sm"  onclick="toggleBibtex{{entry.key}}()">BIB</button>
+<button class="btn btn-info btm-sm"  onclick="toggleBibtex{{entry.key}}()">BIB</button>
 {% endif %}
 
 {% if entry.abstract %}
@@ -90,3 +106,6 @@ function toggleAbstract{{entry.key}}(parameter) {
     }
 }
 </script>
+
+</div>
+</div>
