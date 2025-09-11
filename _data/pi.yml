@@ -1,11 +1,12 @@
-- name: Dr. Matthew X. Yao
+- name: "Matthew Yao"
   photo: headshot.jpg
-  info: Postdoctoral Research Associate, Princeton University
-  email: mxyao@princeton.edu
+  info: Assistant Professor
+  email: matthew.yao@unb.ca
   github: https://github.com/
   researchgate: https://www.researchgate.net/profile/Matthew-Yao-2
   scholar: https://scholar.google.ca/citations?user=BJ1kVqAAAAAJ
   orcid: https://orcid.org/0000-0001-6141-1477
+  linkedin: https://www.linkedin.com/in/yaomatthew/
   cv: cv/cv.pdf
   # Change the items in "education" you have (up to 6)
   education:

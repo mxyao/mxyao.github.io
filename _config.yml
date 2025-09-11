@@ -1,27 +1,27 @@
 # Site settings
-title: Matthew X. Yao
-email: mxyao@princeton.edu
-description: Academic webpage of Matthew X. Yao
+title: Numerical Turbulence and Combustion Group
+email: matthew.yao@unb.ca
+description: Academic webpage of Matthew Yao
 baseurl: ""
 url: ""
 
 # Google analytics ID: Uncomment and your own, if you like
-# google_analytics: XX
+google_analytics: G-XY1CKQ1M9S
 # google_analytics_4: XXX
 # google_tag_manager: XXX
 
 # Footer info
 affiliation: >
-  Matthew X. Yao<br/>
-  Postdoctoral Research Associate<br/>
-  Princeton University
+  Matthew Yao<br/>
+  Assistant Professor <br/>
+  University of New Brunswick
 
 location: >
-  Princeton University<br/>
-  Princeton, NJ 08544
+  University of New Brunswick <br/>
+  Fredericton, NB E3B 5A3
 
 contact: >
-  <a href="mailto:mxyao@princeton.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Matthew via email</a> <br/>
+  <a href="mailto:matthew.yao@unb.ca" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Matthew via email</a> <br/>
   <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
 
 # Pages shown in navbar

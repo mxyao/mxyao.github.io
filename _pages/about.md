@@ -18,7 +18,8 @@ permalink: /about/
   <h3>{{ member.name }}</h3>
   <h4><i>{{ member.info }}</i></h4>
   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> {% endif %}
-  {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> {% endif %}
+  <!-- {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> {% endif %} -->
+  {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a> {% endif %}
   {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a> {% endif %}
   <!-- {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> {% endif %} -->
   {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a> {% endif %}
@@ -34,6 +35,14 @@ permalink: /about/
 </div>
 </div>
 {% endfor %}
+
+<div class="jumbotron">
+<!-- ### About me -->
+
+<!-- I am currently an Assistant Professor in the Department of Mechanical Engineering at the University of New Brunswick. Prior to this, I was a Postdoctoral Research Associate at Princeton University where I worked with <a href="https://ctrfl.princeton.edu/">Prof. Michael E Mueller</a> developing efficient computational models to predict soot and emissions production. I completed my PhD at Caltech under the supervision of <a href="https://theforce.caltech.edu/">Prof. Guillaume Blanquart</a>, where I studied fundamental physics of turbulent combustion and reduced order combustion modelling, and my MASc at uWaterloo under the supervision of <a href="https://www.mpilab.ca/home">Prof. Jean-Pierre Hickey</a>, where I studied fundamental combustion dynamics and turbulent wall-bounded flows.  -->
+
+I am an Assistant Professor in the Department of Mechanical Engineering at the University of New Brunswick. Prior to this, I was a Postdoctoral Research Associate at Princeton University where I worked with <a href="https://ctrfl.princeton.edu/">Prof. Michael E Mueller</a>. I completed my PhD at Caltech under the supervision of <a href="https://theforce.caltech.edu/">Prof. Guillaume Blanquart</a> and my MASc at uWaterloo under the supervision of <a href="https://www.mpilab.ca/home">Prof. Jean-Pierre Hickey</a>. 
+</div>
 
 <!-- {% if site.data.grants %}
 
