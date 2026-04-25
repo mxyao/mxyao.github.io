@@ -17,7 +17,7 @@ side_content: |
 <div class="jumbotron">
   <h4>News</h4>
 
-  {% for article in site.data.news limit:3 %}
+  {% for article in site.data.news limit:5 %}
   <strong><span style="color:#0cbdf4;">{{ article.date }}</span></strong>
   <!-- <b>{{ article.date }}</b> -->
     <br>{{ article.headline }}
