@@ -3,6 +3,16 @@
 ---
 
 ol.bibliography { list-style-type: none; padding: 0px; margin: 0px; }
+ol.bibliography li {
+  border-bottom: 1px solid #375266; 
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+ol.bibliography li:last-child {
+  border-bottom: none;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
 
 $baseurl: "{{ site.url }}{{ site.baseurl }}";
 

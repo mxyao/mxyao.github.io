@@ -1,9 +1,25 @@
-- name: Example student name
-  photo: rock.jpg
-  info: Postdoc, started Oct 2040
-  email: exampleemail@gmail.com
-  website: https://website.com
+- name: Zachary Titus
+  photo: headshots/zach.jpg
+  info: PhD Student 
+  info2: (with J. Hall)
+  linkedin: https://www.linkedin.com/in/zach-titus-a7078b22b/
 
-- name: "This could be you !"
-  photo: rock.jpg
-  info: See <a href="www">openings</a> for more info
+- name: Patrick Sullivan
+  photo: headshots/patrick.jpeg
+  info: MScE Student
+  linkedin: https://www.linkedin.com/in/patrick-sullivan-6994933a5/
+
+- name: Ismail Karim
+  photo: headshots/karim.jpeg
+  info: BScE Student
+  linkedin: https://www.linkedin.com/in/ismail-karim-07615a244/
+
+- name: Eric Kong
+  photo: headshots/eric.jpeg
+  info: BScE Student
+  linkedin: https://www.linkedin.com/in/eric-kong-49816b311/
+
+# - name: "This could be you !"
+#   photo: rock.jpg
+#   info: See <a href="www">openings</a> for more info
+

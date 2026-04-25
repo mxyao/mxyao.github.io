@@ -1,6 +1,20 @@
-# - date: 1 January, 1941
-#   headline: "Example news here"
+- year: 2026
+  date: April 22, 2026
+  headline: We are grateful to receive support from the <a href="https://researchnb.ca/programs/ssf/">ResearchNB Student Support Fund</a> for the project "High-fidelity simulations of NOx formation in turbulent ammonia flames."
 
-# - date: 1 January, 1940
-#   headline: "Example news here"
+- year: 2026
+  date: April 15, 2026
+  headline: We are grateful to receive support from the <a href="https://nserc-crsng.canada.ca/en/funding-opportunity/discovery-grants-individual-program">NSERC Discovery Grants program</a> for the project "Development of computational models for simulation of low-emissions gas turbines."
+
+- year: 2026
+  date: April 10, 2026
+  headline: We are grateful to receive support from the <a href="https://harrisonmccainfoundation.com/case_study/bringing-arts-programming-to-the-youth-of-dieppe/"> Harrison McCain Foundation Young Scholars Program</a> for the project "Data-driven analysis and modelling of turbulent hydrogen flames."
+
+- year: 2026
+  date: April 2, 2026
+  headline: We are grateful to receive support from the UNB University Research Fund for the project "Effect of combustor geometry on NOx formation in cracked ammonia flames."
+
+- year: 2025
+  date: December 12, 2025
+  headline: We are grateful to receive support from the <a href="https://researchnb.ca/programs/asf/">ResearchNB Academic Startup Fund</a> for the project "Towards full-scale Large Eddy Simulation of low-emissions gas turbines."
 
