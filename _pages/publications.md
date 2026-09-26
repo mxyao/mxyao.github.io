@@ -23,6 +23,11 @@ years: [2016, 2017, 2018, 2019, 2020, 2021]
 
 ### Journal Publications
 <div class="jumbotron">
+#### 2026
+{% bibliography --query @article[year = 2026] %}
+</div>
+
+<div class="jumbotron">
 #### 2025
 {% bibliography --query @article[year = 2025] %}
 </div>
