@@ -65,12 +65,24 @@ permalink: /teaching/
   </thead>
   <tbody>
     <tr>
+      <td class="course-title">ME3433 Heat Transfer</td>
+      <td class="terms">Winter 2027</td>
+    </tr>
+    <tr>
+      <td class="course-title">ME4421 Applied Thermodynamics</td>
+      <td class="terms">Fall 2026</td>
+    </tr>
+    <tr>
+      <td class="course-title">ME5588 Applied Thermodynamics</td>
+      <td class="terms">Winter 2027</td>
+    </tr>
+    <tr>
       <td class="course-title">ME5833 Combustion Fundamentals</td>
       <td class="terms">Winter 2026</td>
     </tr>
-    <!-- <tr>
-      <td class="course-title">ME5833 Combustion Fundamentals</td>
-      <td class="terms">Winter 2026</td>
-    </tr> -->
+    <tr>
+      <td class="course-title">ME6003 Turbulent Combustion</td>
+      <td class="terms">Fall 2026</td>
+    </tr>
   </tbody>
 </table>
