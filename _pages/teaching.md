@@ -73,7 +73,7 @@ permalink: /teaching/
       <td class="terms">Fall 2026</td>
     </tr>
     <tr>
-      <td class="course-title">ME5588 Applied Thermodynamics</td>
+      <td class="course-title">ME5588 High Speed Aerodynamics</td>
       <td class="terms">Winter 2027</td>
     </tr>
     <tr>
